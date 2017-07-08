@@ -24,6 +24,20 @@
 		A104C8D31F0C8290002491CF /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C8D21F0C8290002491CF /* TodoItem.swift */; };
 		A104C8D51F0C83A2002491CF /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C8D41F0C83A2002491CF /* TodoViewController.swift */; };
 		A104C8D71F0C8AF7002491CF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C8D61F0C8AF7002491CF /* DetailViewController.swift */; };
+		A104C8F81F0F61AB002491CF /* ArtistListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C8F71F0F61AB002491CF /* ArtistListViewController.swift */; };
+		A104C8FA1F0F62F7002491CF /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C8F91F0F62F7002491CF /* Artist.swift */; };
+		A104C8FC1F0F631B002491CF /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C8FB1F0F631B002491CF /* Work.swift */; };
+		A104C8FE1F0F6811002491CF /* artists.json in Resources */ = {isa = PBXBuildFile; fileRef = A104C8FD1F0F6811002491CF /* artists.json */; };
+		A104C9001F107544002491CF /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C8FF1F107544002491CF /* ArtistTableViewCell.swift */; };
+		A104C9021F10778F002491CF /* WorkTablelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C9011F10778F002491CF /* WorkTablelViewCell.swift */; };
+		A104C9041F1077E3002491CF /* ArtistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C9031F1077E3002491CF /* ArtistDetailViewController.swift */; };
+		A104C9091F107FFD002491CF /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C9081F107FFD002491CF /* NewsTableViewCell.swift */; };
+		A104C90B1F108028002491CF /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C90A1F108028002491CF /* NewsTableViewController.swift */; };
+		A104C90D1F10818B002491CF /* FeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C90C1F10818B002491CF /* FeedParser.swift */; };
+		A104C9101F1088AB002491CF /* CandyAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C90F1F1088AB002491CF /* CandyAppDelegate.swift */; };
+		A104C9121F108C6F002491CF /* CandyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C9111F108C6F002491CF /* CandyDetailViewController.swift */; };
+		A104C9141F108C7A002491CF /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C9131F108C7A002491CF /* Candy.swift */; };
+		A104C9161F108C8F002491CF /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C9151F108C8F002491CF /* MasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +81,20 @@
 		A104C8D21F0C8290002491CF /* TodoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 		A104C8D41F0C83A2002491CF /* TodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		A104C8D61F0C8AF7002491CF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A104C8F71F0F61AB002491CF /* ArtistListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistListViewController.swift; sourceTree = "<group>"; };
+		A104C8F91F0F62F7002491CF /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		A104C8FB1F0F631B002491CF /* Work.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		A104C8FD1F0F6811002491CF /* artists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artists.json; sourceTree = "<group>"; };
+		A104C8FF1F107544002491CF /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
+		A104C9011F10778F002491CF /* WorkTablelViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkTablelViewCell.swift; sourceTree = "<group>"; };
+		A104C9031F1077E3002491CF /* ArtistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistDetailViewController.swift; sourceTree = "<group>"; };
+		A104C9081F107FFD002491CF /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		A104C90A1F108028002491CF /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		A104C90C1F10818B002491CF /* FeedParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedParser.swift; sourceTree = "<group>"; };
+		A104C90F1F1088AB002491CF /* CandyAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyAppDelegate.swift; sourceTree = "<group>"; };
+		A104C9111F108C6F002491CF /* CandyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyDetailViewController.swift; sourceTree = "<group>"; };
+		A104C9131F108C7A002491CF /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		A104C9151F108C8F002491CF /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +145,9 @@
 		A104C88E1F0B74A9002491CF /* SwiftProductStudy */ = {
 			isa = PBXGroup;
 			children = (
+				A104C90E1F108816002491CF /* CandySearch */,
+				A104C9051F107F9C002491CF /* SimpleRSSReader */,
+				A104C8F31F0F60AF002491CF /* Artistry */,
 				A104C8CF1F0C81A7002491CF /* Todo */,
 				A104C8C91F0B82DF002491CF /* StopWatch */,
 				A104C8C41F0B79E8002491CF /* LoveTweet */,
@@ -185,6 +216,81 @@
 				A104C8D61F0C8AF7002491CF /* DetailViewController.swift */,
 			);
 			name = Todo;
+			sourceTree = "<group>";
+		};
+		A104C8F31F0F60AF002491CF /* Artistry */ = {
+			isa = PBXGroup;
+			children = (
+				A104C8F61F0F6157002491CF /* ViewControllers */,
+				A104C8F51F0F6151002491CF /* Models */,
+				A104C8F41F0F6146002491CF /* Views */,
+			);
+			name = Artistry;
+			sourceTree = "<group>";
+		};
+		A104C8F41F0F6146002491CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A104C8FF1F107544002491CF /* ArtistTableViewCell.swift */,
+				A104C9031F1077E3002491CF /* ArtistDetailViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A104C8F51F0F6151002491CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A104C8FD1F0F6811002491CF /* artists.json */,
+				A104C8F91F0F62F7002491CF /* Artist.swift */,
+				A104C8FB1F0F631B002491CF /* Work.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A104C8F61F0F6157002491CF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A104C8F71F0F61AB002491CF /* ArtistListViewController.swift */,
+				A104C9011F10778F002491CF /* WorkTablelViewCell.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A104C9051F107F9C002491CF /* SimpleRSSReader */ = {
+			isa = PBXGroup;
+			children = (
+				A104C90C1F10818B002491CF /* FeedParser.swift */,
+				A104C9071F107FE7002491CF /* View */,
+				A104C9061F107FDE002491CF /* ViewController */,
+			);
+			name = SimpleRSSReader;
+			sourceTree = "<group>";
+		};
+		A104C9061F107FDE002491CF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A104C90A1F108028002491CF /* NewsTableViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		A104C9071F107FE7002491CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A104C9081F107FFD002491CF /* NewsTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A104C90E1F108816002491CF /* CandySearch */ = {
+			isa = PBXGroup;
+			children = (
+				A104C90F1F1088AB002491CF /* CandyAppDelegate.swift */,
+				A104C9151F108C8F002491CF /* MasterViewController.swift */,
+				A104C9111F108C6F002491CF /* CandyDetailViewController.swift */,
+				A104C9131F108C7A002491CF /* Candy.swift */,
+			);
+			name = CandySearch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +405,7 @@
 			files = (
 				A104C89A1F0B74A9002491CF /* LaunchScreen.storyboard in Resources */,
 				A104C8971F0B74A9002491CF /* Assets.xcassets in Resources */,
+				A104C8FE1F0F6811002491CF /* artists.json in Resources */,
 				A104C8951F0B74A9002491CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,16 +433,29 @@
 			files = (
 				A104C8D31F0C8290002491CF /* TodoItem.swift in Sources */,
 				A104C8921F0B74A9002491CF /* ViewController.swift in Sources */,
+				A104C8FC1F0F631B002491CF /* Work.swift in Sources */,
+				A104C9121F108C6F002491CF /* CandyDetailViewController.swift in Sources */,
+				A104C90D1F10818B002491CF /* FeedParser.swift in Sources */,
+				A104C9021F10778F002491CF /* WorkTablelViewCell.swift in Sources */,
 				A104C8CB1F0B8358002491CF /* StopWatch.swift in Sources */,
 				A104C8D71F0C8AF7002491CF /* DetailViewController.swift in Sources */,
 				A104C8D11F0C81DE002491CF /* Utils.swift in Sources */,
+				A104C9101F1088AB002491CF /* CandyAppDelegate.swift in Sources */,
+				A104C9041F1077E3002491CF /* ArtistDetailViewController.swift in Sources */,
+				A104C90B1F108028002491CF /* NewsTableViewController.swift in Sources */,
 				A104C8C01F0B7566002491CF /* ContactViewController.swift in Sources */,
+				A104C9141F108C7A002491CF /* Candy.swift in Sources */,
+				A104C8FA1F0F62F7002491CF /* Artist.swift in Sources */,
+				A104C9161F108C8F002491CF /* MasterViewController.swift in Sources */,
 				A104C8901F0B74A9002491CF /* AppDelegate.swift in Sources */,
 				A104C8CD1F0B83C6002491CF /* StopWatchViewController.swift in Sources */,
 				A104C8BE1F0B74F9002491CF /* Product.swift in Sources */,
+				A104C8F81F0F61AB002491CF /* ArtistListViewController.swift in Sources */,
 				A104C8C81F0B7C58002491CF /* LoveTweetViewController.swift in Sources */,
 				A104C8D51F0C83A2002491CF /* TodoViewController.swift in Sources */,
+				A104C9001F107544002491CF /* ArtistTableViewCell.swift in Sources */,
 				A104C8C21F0B75DE002491CF /* ProductsTableViewController.swift in Sources */,
+				A104C9091F107FFD002491CF /* NewsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
