@@ -34,10 +34,10 @@
 		A104C9091F107FFD002491CF /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C9081F107FFD002491CF /* NewsTableViewCell.swift */; };
 		A104C90B1F108028002491CF /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C90A1F108028002491CF /* NewsTableViewController.swift */; };
 		A104C90D1F10818B002491CF /* FeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C90C1F10818B002491CF /* FeedParser.swift */; };
-		A104C9101F1088AB002491CF /* CandyAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C90F1F1088AB002491CF /* CandyAppDelegate.swift */; };
 		A104C9121F108C6F002491CF /* CandyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C9111F108C6F002491CF /* CandyDetailViewController.swift */; };
 		A104C9141F108C7A002491CF /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C9131F108C7A002491CF /* Candy.swift */; };
 		A104C9161F108C8F002491CF /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C9151F108C8F002491CF /* MasterViewController.swift */; };
+		A104C91D1F1365A2002491CF /* JMStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C91C1F1365A2002491CF /* JMStringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,10 +91,10 @@
 		A104C9081F107FFD002491CF /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		A104C90A1F108028002491CF /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		A104C90C1F10818B002491CF /* FeedParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedParser.swift; sourceTree = "<group>"; };
-		A104C90F1F1088AB002491CF /* CandyAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyAppDelegate.swift; sourceTree = "<group>"; };
 		A104C9111F108C6F002491CF /* CandyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyDetailViewController.swift; sourceTree = "<group>"; };
 		A104C9131F108C7A002491CF /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
 		A104C9151F108C8F002491CF /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		A104C91C1F1365A2002491CF /* JMStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMStringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +145,7 @@
 		A104C88E1F0B74A9002491CF /* SwiftProductStudy */ = {
 			isa = PBXGroup;
 			children = (
+				A104C9181F135D4A002491CF /* Common */,
 				A104C90E1F108816002491CF /* CandySearch */,
 				A104C9051F107F9C002491CF /* SimpleRSSReader */,
 				A104C8F31F0F60AF002491CF /* Artistry */,
@@ -285,12 +286,27 @@
 		A104C90E1F108816002491CF /* CandySearch */ = {
 			isa = PBXGroup;
 			children = (
-				A104C90F1F1088AB002491CF /* CandyAppDelegate.swift */,
 				A104C9151F108C8F002491CF /* MasterViewController.swift */,
 				A104C9111F108C6F002491CF /* CandyDetailViewController.swift */,
 				A104C9131F108C7A002491CF /* Candy.swift */,
 			);
 			name = CandySearch;
+			sourceTree = "<group>";
+		};
+		A104C9181F135D4A002491CF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A104C91B1F13649D002491CF /* Extension */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		A104C91B1F13649D002491CF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A104C91C1F1365A2002491CF /* JMStringExtensions.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -440,9 +456,9 @@
 				A104C8CB1F0B8358002491CF /* StopWatch.swift in Sources */,
 				A104C8D71F0C8AF7002491CF /* DetailViewController.swift in Sources */,
 				A104C8D11F0C81DE002491CF /* Utils.swift in Sources */,
-				A104C9101F1088AB002491CF /* CandyAppDelegate.swift in Sources */,
 				A104C9041F1077E3002491CF /* ArtistDetailViewController.swift in Sources */,
 				A104C90B1F108028002491CF /* NewsTableViewController.swift in Sources */,
+				A104C91D1F1365A2002491CF /* JMStringExtensions.swift in Sources */,
 				A104C8C01F0B7566002491CF /* ContactViewController.swift in Sources */,
 				A104C9141F108C7A002491CF /* Candy.swift in Sources */,
 				A104C8FA1F0F62F7002491CF /* Artist.swift in Sources */,

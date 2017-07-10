@@ -14,6 +14,10 @@ class ArtistTableViewCell: UITableViewCell {
     var nameLabel: UILabel!
     var artistImageView: UIImageView!
 
+    var label = UILabel()
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
