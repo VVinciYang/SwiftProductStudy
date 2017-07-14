@@ -38,6 +38,19 @@
 		A104C9141F108C7A002491CF /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C9131F108C7A002491CF /* Candy.swift */; };
 		A104C9161F108C8F002491CF /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C9151F108C8F002491CF /* MasterViewController.swift */; };
 		A104C91D1F1365A2002491CF /* JMStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104C91C1F1365A2002491CF /* JMStringExtensions.swift */; };
+		A16EBA671F160CD400B0D4FD /* FBBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EBA661F160CD400B0D4FD /* FBBaseViewController.swift */; };
+		A16EBA691F160CFF00B0D4FD /* Specs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EBA681F160CFF00B0D4FD /* Specs.swift */; };
+		A16EBA6B1F160D6B00B0D4FD /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EBA6A1F160D6B00B0D4FD /* UIColor+Extension.swift */; };
+		A16EBA6F1F16120600B0D4FD /* FBMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EBA6E1F16120600B0D4FD /* FBMeViewController.swift */; };
+		A16EBA711F1612D000B0D4FD /* FBMeUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EBA701F1612D000B0D4FD /* FBMeUser.swift */; };
+		A16EBA731F1613BB00B0D4FD /* TableKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EBA721F1613BB00B0D4FD /* TableKeys.swift */; };
+		A16EBA751F1615CC00B0D4FD /* FBMeBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EBA741F1615CC00B0D4FD /* FBMeBaseCell.swift */; };
+		A16EBA7B1F161A0C00B0D4FD /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EBA7A1F161A0C00B0D4FD /* Interest.swift */; };
+		A16EBA7D1F163FAF00B0D4FD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EBA7C1F163FAF00B0D4FD /* HomeViewController.swift */; };
+		A16EBA7F1F16417200B0D4FD /* InterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EBA7E1F16417200B0D4FD /* InterestCollectionViewCell.swift */; };
+		A16EBA831F170D2E00B0D4FD /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EBA821F170D2E00B0D4FD /* AnimationViewController.swift */; };
+		A16EBA851F17336A00B0D4FD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EBA841F17336A00B0D4FD /* Common.swift */; };
+		A16EBA871F1743B800B0D4FD /* AnimationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16EBA861F1743B800B0D4FD /* AnimationDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +108,19 @@
 		A104C9131F108C7A002491CF /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
 		A104C9151F108C8F002491CF /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		A104C91C1F1365A2002491CF /* JMStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMStringExtensions.swift; sourceTree = "<group>"; };
+		A16EBA661F160CD400B0D4FD /* FBBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBBaseViewController.swift; sourceTree = "<group>"; };
+		A16EBA681F160CFF00B0D4FD /* Specs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Specs.swift; sourceTree = "<group>"; };
+		A16EBA6A1F160D6B00B0D4FD /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A16EBA6E1F16120600B0D4FD /* FBMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBMeViewController.swift; sourceTree = "<group>"; };
+		A16EBA701F1612D000B0D4FD /* FBMeUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBMeUser.swift; sourceTree = "<group>"; };
+		A16EBA721F1613BB00B0D4FD /* TableKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableKeys.swift; sourceTree = "<group>"; };
+		A16EBA741F1615CC00B0D4FD /* FBMeBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBMeBaseCell.swift; sourceTree = "<group>"; };
+		A16EBA7A1F161A0C00B0D4FD /* Interest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
+		A16EBA7C1F163FAF00B0D4FD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A16EBA7E1F16417200B0D4FD /* InterestCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestCollectionViewCell.swift; sourceTree = "<group>"; };
+		A16EBA821F170D2E00B0D4FD /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		A16EBA841F17336A00B0D4FD /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		A16EBA861F1743B800B0D4FD /* AnimationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +171,10 @@
 		A104C88E1F0B74A9002491CF /* SwiftProductStudy */ = {
 			isa = PBXGroup;
 			children = (
-				A104C9181F135D4A002491CF /* Common */,
+				A16EBA881F17565400B0D4FD /* PhotoScroll */,
+				A16EBA801F1644F500B0D4FD /* Animation */,
+				A16EBA761F1619AB00B0D4FD /* Interest */,
+				A16EBA611F160C8700B0D4FD /* FaceBookMe */,
 				A104C90E1F108816002491CF /* CandySearch */,
 				A104C9051F107F9C002491CF /* SimpleRSSReader */,
 				A104C8F31F0F60AF002491CF /* Artistry */,
@@ -153,6 +182,7 @@
 				A104C8C91F0B82DF002491CF /* StopWatch */,
 				A104C8C41F0B79E8002491CF /* LoveTweet */,
 				A104C8C31F0B79D4002491CF /* Product1 */,
+				A104C9181F135D4A002491CF /* Common */,
 				A104C88F1F0B74A9002491CF /* AppDelegate.swift */,
 				A104C8911F0B74A9002491CF /* ViewController.swift */,
 				A104C8931F0B74A9002491CF /* Main.storyboard */,
@@ -309,6 +339,103 @@
 			name = Extension;
 			sourceTree = "<group>";
 		};
+		A16EBA611F160C8700B0D4FD /* FaceBookMe */ = {
+			isa = PBXGroup;
+			children = (
+				A16EBA651F160CAB00B0D4FD /* Models */,
+				A16EBA641F160CA400B0D4FD /* Views */,
+				A16EBA631F160C9E00B0D4FD /* ViewController */,
+				A16EBA621F160C9800B0D4FD /* Helper */,
+			);
+			name = FaceBookMe;
+			sourceTree = "<group>";
+		};
+		A16EBA621F160C9800B0D4FD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A16EBA681F160CFF00B0D4FD /* Specs.swift */,
+				A16EBA6A1F160D6B00B0D4FD /* UIColor+Extension.swift */,
+				A16EBA721F1613BB00B0D4FD /* TableKeys.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		A16EBA631F160C9E00B0D4FD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A16EBA661F160CD400B0D4FD /* FBBaseViewController.swift */,
+				A16EBA6E1F16120600B0D4FD /* FBMeViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		A16EBA641F160CA400B0D4FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A16EBA741F1615CC00B0D4FD /* FBMeBaseCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A16EBA651F160CAB00B0D4FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A16EBA701F1612D000B0D4FD /* FBMeUser.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A16EBA761F1619AB00B0D4FD /* Interest */ = {
+			isa = PBXGroup;
+			children = (
+				A16EBA791F1619C600B0D4FD /* Model */,
+				A16EBA781F1619C100B0D4FD /* View */,
+				A16EBA771F1619B900B0D4FD /* Controller */,
+			);
+			name = Interest;
+			sourceTree = "<group>";
+		};
+		A16EBA771F1619B900B0D4FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A16EBA7C1F163FAF00B0D4FD /* HomeViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A16EBA781F1619C100B0D4FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A16EBA7E1F16417200B0D4FD /* InterestCollectionViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A16EBA791F1619C600B0D4FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A16EBA7A1F161A0C00B0D4FD /* Interest.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A16EBA801F1644F500B0D4FD /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				A16EBA821F170D2E00B0D4FD /* AnimationViewController.swift */,
+				A16EBA841F17336A00B0D4FD /* Common.swift */,
+				A16EBA861F1743B800B0D4FD /* AnimationDetailViewController.swift */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		A16EBA881F17565400B0D4FD /* PhotoScroll */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PhotoScroll;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -449,15 +576,24 @@
 			files = (
 				A104C8D31F0C8290002491CF /* TodoItem.swift in Sources */,
 				A104C8921F0B74A9002491CF /* ViewController.swift in Sources */,
+				A16EBA751F1615CC00B0D4FD /* FBMeBaseCell.swift in Sources */,
+				A16EBA7D1F163FAF00B0D4FD /* HomeViewController.swift in Sources */,
+				A16EBA711F1612D000B0D4FD /* FBMeUser.swift in Sources */,
 				A104C8FC1F0F631B002491CF /* Work.swift in Sources */,
 				A104C9121F108C6F002491CF /* CandyDetailViewController.swift in Sources */,
 				A104C90D1F10818B002491CF /* FeedParser.swift in Sources */,
 				A104C9021F10778F002491CF /* WorkTablelViewCell.swift in Sources */,
 				A104C8CB1F0B8358002491CF /* StopWatch.swift in Sources */,
+				A16EBA6B1F160D6B00B0D4FD /* UIColor+Extension.swift in Sources */,
 				A104C8D71F0C8AF7002491CF /* DetailViewController.swift in Sources */,
 				A104C8D11F0C81DE002491CF /* Utils.swift in Sources */,
+				A16EBA7B1F161A0C00B0D4FD /* Interest.swift in Sources */,
 				A104C9041F1077E3002491CF /* ArtistDetailViewController.swift in Sources */,
+				A16EBA831F170D2E00B0D4FD /* AnimationViewController.swift in Sources */,
+				A16EBA7F1F16417200B0D4FD /* InterestCollectionViewCell.swift in Sources */,
 				A104C90B1F108028002491CF /* NewsTableViewController.swift in Sources */,
+				A16EBA671F160CD400B0D4FD /* FBBaseViewController.swift in Sources */,
+				A16EBA691F160CFF00B0D4FD /* Specs.swift in Sources */,
 				A104C91D1F1365A2002491CF /* JMStringExtensions.swift in Sources */,
 				A104C8C01F0B7566002491CF /* ContactViewController.swift in Sources */,
 				A104C9141F108C7A002491CF /* Candy.swift in Sources */,
@@ -468,9 +604,13 @@
 				A104C8BE1F0B74F9002491CF /* Product.swift in Sources */,
 				A104C8F81F0F61AB002491CF /* ArtistListViewController.swift in Sources */,
 				A104C8C81F0B7C58002491CF /* LoveTweetViewController.swift in Sources */,
+				A16EBA731F1613BB00B0D4FD /* TableKeys.swift in Sources */,
+				A16EBA6F1F16120600B0D4FD /* FBMeViewController.swift in Sources */,
 				A104C8D51F0C83A2002491CF /* TodoViewController.swift in Sources */,
+				A16EBA851F17336A00B0D4FD /* Common.swift in Sources */,
 				A104C9001F107544002491CF /* ArtistTableViewCell.swift in Sources */,
 				A104C8C21F0B75DE002491CF /* ProductsTableViewController.swift in Sources */,
+				A16EBA871F1743B800B0D4FD /* AnimationDetailViewController.swift in Sources */,
 				A104C9091F107FFD002491CF /* NewsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,6 +11,4 @@ import Foundation
 // MARK - Encode and Decode
 extension String {
     
-    
-    
 }
